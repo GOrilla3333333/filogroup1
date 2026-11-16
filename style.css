@@ -1697,3 +1697,39 @@ footer {
   }
 }
 
+
+/* Poster figure — actual likhang biswal */
+.poster-figure {
+  width: 100%;
+  margin: 0;
+}
+
+.poster-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #f7f4ee;
+  border: 1px solid rgba(23, 23, 23, 0.28);
+}
+
+.poster-figure figcaption {
+  margin-top: 0.75rem;
+}
+
+.poster-figure figcaption h3 {
+  font-family: var(--ff-display);
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.poster-figure figcaption p {
+  margin: 0.35rem 0 0;
+  font-family: var(--ff-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--charcoal);
+}
